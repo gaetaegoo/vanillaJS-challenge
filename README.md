@@ -1,5 +1,5 @@
 # vanillaJS challenge Final
 
-HTML & CSS & JS coding!
+JS coding practice!
 
 [🌈 my js webpage :)](https://gaetaegoo.github.io/vanillaJS-challenge/)
