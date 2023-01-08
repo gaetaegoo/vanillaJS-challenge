@@ -1,0 +1,149 @@
+@import "reset.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    /* background-color: lightgray; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 10px 10px;
+    box-shadow: 2px 4px 20px -15px black;
+}
+
+button {
+    height: 35px;
+    width: 55px;
+    border-radius: 10px;
+    border: 0px solid;
+}
+
+li {
+    list-style: square;
+}
+
+.hidden {
+    display: none;
+}
+
+/* greeting */
+#greeting {
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 2px gray;
+}
+
+/* login */
+#login-form {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#login-form i {
+    position: absolute;
+    left: 8px;
+    top: 9px;
+    opacity: 0.5;
+}
+
+#login-form input {
+    width: 240px;
+    padding-left: 32px;
+}
+
+#greeting {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+/* clock */
+#clock {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    text-shadow: 1px 1px 2px gray;
+}
+
+#today {
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px gray;
+    margin-bottom: 20px;
+}
+
+/* to do */
+#todo-form {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#todo-form i {
+    position: absolute;
+    left: 8px;
+    top: 9px;
+    opacity: 0.5;
+}
+
+#todo-form input {
+    width: 240px;
+    padding-left: 32px;
+}
+
+#todo-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px gray;
+}
+
+#todo-list button {
+    height: 20px;
+    width: 35px;
+    border-radius: 10px;
+    border: 0px solid;
+    margin-left: 10px;
+}
+
+/* quote & weather */
+#quote {
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px gray;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+#weather {
+    font-weight: 400;
+    text-shadow: 1px 1px 1px gray;
+    opacity: 0.7;
+}
